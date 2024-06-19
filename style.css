@@ -1,0 +1,19 @@
+html{
+    background-color:#e9c46a
+}
+h1{
+    background-color: #2a9d8f;
+    color:#264653
+    
+}
+h2{
+    background-color: #2a9d8f;
+    color:#264653
+}
+section{
+    border: 4px #e07b61 solid;
+    background-color: #f2a955;
+    color: #e0451e;
+    margin: 40px;
+    padding: 20px;
+}
