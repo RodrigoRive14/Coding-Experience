@@ -1,12 +1,12 @@
 body{
     font-family: Arial, sans-serif;
-    background-color:#e9c46a;
+    background: color #dad7cd;
     margin: 0;
     padding-top: 70px;
 }
 header{
-    background-color: #2a9d8f;
-    color: #264653;
+    background-color: #588157;
+    color: #2e4539;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
@@ -16,28 +16,28 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #e9c46a;
+    background-color: #588157;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .menu-item{
     text-decoration: none;
-    color: #264653;
+    color: #2e4539;
     padding: 10px;
     display: inline-block;
 }
 .menu-item:hover{
-    background-color: #32b8a8;
+    background-color: #a3b18a;
     transition: all 0.4s ease-in-out;
 }
 section{
     padding: 20px;
-    border: 7px #e07b61 ridge;
-    border-radius: 10px;
+    border: 2px #000 solid;
+    border-radius: 3px;
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #f2a955;
-    color: #e0451e;
+    background-color: #a3b18a;
+    color: #2e4539;
 }
 #Acerca-de-mi{
     text-align: justify;
@@ -49,8 +49,8 @@ section{
 #Habilidades ul li{
     display: inline-block;
     padding: 5px;
-    border: 2px solid #e0451e;
-    border-radius: 5px;
+    border: 2px solid #000;
+    border-radius: 2px;
     margin-right: 10px;
 }
 #Experiencia ul{
@@ -69,7 +69,7 @@ section{
 }
 #Proyectos ul li a{
     text-decoration: none;
-    color: #e0451e;
+    color: #2e4539;
 
 }
 #Proyectos ul li a:hover{
@@ -101,8 +101,8 @@ text-decoration: underline;
     margin-bottom: 10px;
 }
 footer{
-    background-color: #e9c46a;
-    color: #264653;
+    background: color #dad7cd;
+    color: #2e4539;
     text-align: center;
     padding: 10px;
 }
