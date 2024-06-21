@@ -1,19 +1,108 @@
-html{
-    background-color:#e9c46a
+body{
+    font-family: Arial, sans-serif;
+    background-color:#e9c46a;
+    margin: 0;
+    padding-top: 70px;
 }
-h1{
+header{
     background-color: #2a9d8f;
-    color:#264653
-    
+    color: #264653;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
-h2{
-    background-color: #2a9d8f;
-    color:#264653
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e9c46a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.menu-item{
+    text-decoration: none;
+    color: #264653;
+    padding: 10px;
+    display: inline-block;
+}
+.menu-item:hover{
+    background-color: #32b8a8;
+    transition: all 0.4s ease-in-out;
 }
 section{
-    border: 4px #e07b61 solid;
+    padding: 20px;
+    border: 7px #e07b61 ridge;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #f2a955;
     color: #e0451e;
-    margin: 40px;
-    padding: 20px;
+}
+#Acerca-de-mi{
+    text-align: justify;
+}
+#Habilidades ul{
+    list-style: none;
+    padding: 0;
+}
+#Habilidades ul li{
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #e0451e;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#Experiencia ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#Experiencia ul li{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#Proyectos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#Proyectos ul li a{
+    text-decoration: none;
+    color: #e0451e;
+
+}
+#Proyectos ul li a:hover{
+text-decoration: underline;
+}
+#Sociales{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+#sociales li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.fa{
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.Redes{
+    list-style: none;
+    padding: 0;
+}
+.Redes li a{
+    margin-right: 30px;
+}
+#Información-de-contacto ul li{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: #e9c46a;
+    color: #264653;
+    text-align: center;
+    padding: 10px;
 }
